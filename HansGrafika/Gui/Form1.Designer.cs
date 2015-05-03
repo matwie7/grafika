@@ -1,4 +1,4 @@
-﻿namespace HansGrafika
+﻿namespace Grafika
 {
     partial class Form1
     {

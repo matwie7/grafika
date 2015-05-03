@@ -1,4 +1,4 @@
-﻿namespace HelmutGrafika
+﻿namespace Graphics
 {
     partial class Form1
     {

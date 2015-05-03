@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansGrafika", "HansGrafika\HansGrafika.csproj", "{B5507D01-E47F-42FC-AA95-54D77A3ADC5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grafika", "HansGrafika\Grafika.csproj", "{B5507D01-E47F-42FC-AA95-54D77A3ADC5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphics", "HelmutGrafika\Graphics.csproj", "{320AE64B-A6C8-4DBF-AF8B-EFB5BD514797}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B5507D01-E47F-42FC-AA95-54D77A3ADC5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5507D01-E47F-42FC-AA95-54D77A3ADC5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5507D01-E47F-42FC-AA95-54D77A3ADC5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{320AE64B-A6C8-4DBF-AF8B-EFB5BD514797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{320AE64B-A6C8-4DBF-AF8B-EFB5BD514797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{320AE64B-A6C8-4DBF-AF8B-EFB5BD514797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{320AE64B-A6C8-4DBF-AF8B-EFB5BD514797}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
