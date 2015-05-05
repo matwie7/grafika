@@ -1,0 +1,14 @@
+TODO:
+									D	M	Z
+zmiana jasnoœci,				   [ ] [ ] [ ]
+barwy,							   [ ] [ ] [ ]
+nasycenia						   [ ] [ ] [ ]
+i kontrastu						   [ ] [ ] [ ]
+
+rozmywanie,						   [ ] [ ] [ ]
+wyostrzanie						   [ ] [ ] [ ]
+i wykrywanie krawêdzi			   [ ] [ ] [ ]
+
+negatyw,						   [ ] [ ] [ ]
+binaryzacja metod¹ progowania,	   [ ] [ ] [ ]
+wykreœlanie histogramu			   [ ] [ ] [ ]
