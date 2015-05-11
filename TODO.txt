@@ -9,6 +9,6 @@ rozmywanie,						   [ ] [ ] [ ]
 wyostrzanie						   [ ] [ ] [ ]
 i wykrywanie krawêdzi			   [ ] [ ] [ ]
 
-negatyw,						   [ ] [ ] [ ]
+negatyw,						   [ ] [+] [ ]
 binaryzacja metod¹ progowania,	   [ ] [ ] [ ]
 wykreœlanie histogramu			   [ ] [ ] [ ]
