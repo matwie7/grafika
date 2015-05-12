@@ -46,6 +46,8 @@
   <ItemGroup>
     <Compile Include="Common\FileOpening.cs" />
     <Compile Include="Common\FileSaving.cs" />
+    <Compile Include="Common\HSVModel.cs" />
+    <Compile Include="GrOperations\ColorOperations.cs" />
     <Compile Include="Gui\Form1.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -40,7 +40,7 @@ namespace MGrafika.Gui
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SetBitmap(Operations.Negate(pictureBox1));
+            SetBitmap(pictureBox1.Negate());
         }
     }
 }
