@@ -16,7 +16,6 @@ namespace MGrafika.GrOperations
                     kolor = Color.FromArgb(255-kolor.R, 255-kolor.G, 255-kolor.B);
                     bmp.SetPixel(j, i, kolor);
                 }
-
             
             return bmp;
         }

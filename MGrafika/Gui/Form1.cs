@@ -24,7 +24,6 @@ namespace MGrafika.Gui
             pictureBox1.Height = bmp.Height;
             
             SetBitmap(bmp);
-            
             btnSaveFile.Enabled = true;
         }
 
@@ -41,6 +40,43 @@ namespace MGrafika.Gui
         private void button1_Click(object sender, EventArgs e)
         {
             SetBitmap(pictureBox1.Negate());
+        }
+
+        private void drawHistogram(Bitmap bmp)
+        {
+            int[] histogramArray = new int[256];
+            for(int i = 0; i < bmp.Width; i++)
+            {
+                for(int j = 0; j < bmp.Height; j++)
+                {
+                    HSVModel hsv = bmp.GetPixel(i, j).ToHsv();
+                    histogramArray[(int)hsv.Value]++;
+                }
+            }
+
+            Pen pen = new Pen(Color.Black);
+
+            Graphics formGraphics = pictureBoxHistogram.CreateGraphics();
+
+            for(int i = 0; i < 256; i++)
+                formGraphics.DrawLine(pen, i, 128, i, 128 - (histogramArray[i] / 40));
+            pen.Dispose();
+            formGraphics.Dispose();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (bmp != null)
+            {
+                Graphics formGraphics = pictureBoxHistogram.CreateGraphics();
+                Pen pen = new Pen(Color.White);
+                for (int i = 0; i < 256; i++)
+                    formGraphics.DrawLine(pen, i, 0, i, 128);
+                pen.Dispose();
+                formGraphics.Dispose();
+
+                drawHistogram(bmp);
+            }
         }
     }
 }
